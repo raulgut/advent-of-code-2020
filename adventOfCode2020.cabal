@@ -1,0 +1,29 @@
+name:		adventOfCode2020
+version: 	1.0
+cabal-version:	>= 1.6
+description: 	Advent of Code Compilation
+license: 	AllRightsReserved
+license-file: 	LICENSE
+copyright:
+author:		Raul Gutierrez
+maintainer: 	r.gutierrez@upm.es
+build-type: 	Simple
+stability:
+homepage:
+package-url:
+synopsis:
+category:
+tested-with:
+source-repository head
+  type:     git
+  location: https://github.com/raulgut/advent-of-code-2020.git
+
+Executable two-one
+  buildable: True
+  main-is: two-one.hs
+  build-depends: base, parsec
+
+Executable two-two
+  buildable: True
+  main-is: two-two.hs
+  build-depends: base, parsec

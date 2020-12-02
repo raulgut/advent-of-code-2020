@@ -1,0 +1,4 @@
+packages: adventOfCode2020.cabal
+
+package adventOfCode2020 
+  optimization: False
