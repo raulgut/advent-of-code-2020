@@ -18,6 +18,16 @@ source-repository head
   type:     git
   location: https://github.com/raulgut/advent-of-code-2020.git
 
+Executable one-one
+  buildable: True
+  main-is: one-one.hs
+  build-depends: base
+
+Executable one-two
+  buildable: True
+  main-is: one-two.hs
+  build-depends: base
+
 Executable two-one
   buildable: True
   main-is: two-one.hs
@@ -27,3 +37,13 @@ Executable two-two
   buildable: True
   main-is: two-two.hs
   build-depends: base, parsec
+
+Executable three-one
+  buildable: True
+  main-is: three-one.hs
+  build-depends: base, containers
+
+Executable three-two
+  buildable: True
+  main-is: three-two.hs
+  build-depends: base, containers
