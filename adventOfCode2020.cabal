@@ -22,38 +22,46 @@ Executable one-one
   buildable: True
   main-is: one-one.hs
   build-depends: base
+  hs-source-dirs: src
 
 Executable one-two
   buildable: True
   main-is: one-two.hs
   build-depends: base
+  hs-source-dirs: src
 
 Executable two-one
   buildable: True
   main-is: two-one.hs
   build-depends: base, parsec
+  hs-source-dirs: src
 
 Executable two-two
   buildable: True
   main-is: two-two.hs
   build-depends: base, parsec
+  hs-source-dirs: src
 
 Executable three-one
   buildable: True
   main-is: three-one.hs
   build-depends: base, containers
+  hs-source-dirs: src
 
 Executable three-two
   buildable: True
   main-is: three-two.hs
   build-depends: base, containers
+  hs-source-dirs: src
 
 Executable four-one
   buildable: True
   main-is: four-one.hs
   build-depends: base, parsec
+  hs-source-dirs: src
 
 Executable four-two
   buildable: True
   main-is: four-two.hs
   build-depends: base, parsec
+  hs-source-dirs: src
