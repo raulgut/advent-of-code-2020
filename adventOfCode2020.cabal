@@ -47,3 +47,13 @@ Executable three-two
   buildable: True
   main-is: three-two.hs
   build-depends: base, containers
+
+Executable four-one
+  buildable: True
+  main-is: four-one.hs
+  build-depends: base, parsec
+
+Executable four-two
+  buildable: True
+  main-is: four-two.hs
+  build-depends: base, parsec
