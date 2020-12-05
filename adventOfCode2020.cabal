@@ -65,3 +65,15 @@ Executable four-two
   main-is: four-two.hs
   build-depends: base, parsec
   hs-source-dirs: src
+
+Executable five-one
+  buildable: True
+  main-is: five-one.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable five-two
+  buildable: True
+  main-is: five-two.hs
+  build-depends: base
+  hs-source-dirs: src

@@ -110,7 +110,7 @@ otherParser =
     value <- try (manyTill anyChar (try space)) <|> (many1 anyChar)
     return (Other key,value)
 
--- | Check if is a required field
+-- | Check if Key is a required field
 isRequired :: Key -> Bool
 isRequired CID = False
 isRequired (Other _) = False

@@ -113,7 +113,7 @@ otherParser =
     value <- try (manyTill anyChar (try space)) <|> (many1 anyChar)
     return (Other key,value)
 
--- | Check if is a required and valid field
+-- | Check if the pair (Key,Value) is a required and valid field
 isRequiredAndValid :: (Key,String) -> Bool
 isRequiredAndValid (CID,_) = False
 isRequiredAndValid ((Other _),_) = False
