@@ -77,3 +77,27 @@ Executable five-two
   main-is: five-two.hs
   build-depends: base
   hs-source-dirs: src
+
+Executable six-one
+  buildable: True
+  main-is: six-one.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable six-two
+  buildable: True
+  main-is: six-two.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable seven-one
+  buildable: True
+  main-is: seven-one.hs
+  build-depends: base, parsec
+  hs-source-dirs: src
+
+Executable seven-two
+  buildable: True
+  main-is: seven-two.hs
+  build-depends: base, parsec
+  hs-source-dirs: src
