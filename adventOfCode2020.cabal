@@ -101,3 +101,15 @@ Executable seven-two
   main-is: seven-two.hs
   build-depends: base, parsec
   hs-source-dirs: src
+
+Executable eight-one
+  buildable: True
+  main-is: eight-one.hs
+  build-depends: base, mtl
+  hs-source-dirs: src
+
+Executable eight-two
+  buildable: True
+  main-is: eight-two.hs
+  build-depends: base, mtl
+  hs-source-dirs: src
