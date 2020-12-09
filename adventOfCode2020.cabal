@@ -113,3 +113,15 @@ Executable eight-two
   main-is: eight-two.hs
   build-depends: base, mtl
   hs-source-dirs: src
+
+Executable nine-one
+  buildable: True
+  main-is: nine-one.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable nine-two
+  buildable: True
+  main-is: nine-two.hs
+  build-depends: base
+  hs-source-dirs: src
