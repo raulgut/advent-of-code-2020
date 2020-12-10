@@ -125,3 +125,15 @@ Executable nine-two
   main-is: nine-two.hs
   build-depends: base
   hs-source-dirs: src
+
+Executable ten-one
+  buildable: True
+  main-is: ten-one.hs
+  build-depends: base, vector
+  hs-source-dirs: src
+
+Executable ten-two
+  buildable: True
+  main-is: ten-two.hs
+  build-depends: base
+  hs-source-dirs: src
