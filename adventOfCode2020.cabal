@@ -137,3 +137,15 @@ Executable ten-two
   main-is: ten-two.hs
   build-depends: base
   hs-source-dirs: src
+
+Executable eleven-one
+  buildable: True
+  main-is: eleven-one.hs
+  build-depends: base, matrix
+  hs-source-dirs: src
+
+Executable eleven-two
+  buildable: True
+  main-is: eleven-two.hs
+  build-depends: base, matrix
+  hs-source-dirs: src
