@@ -161,3 +161,15 @@ Executable twelve-two
   main-is: twelve-two.hs
   build-depends: base
   hs-source-dirs: src
+
+Executable thirteen-one
+  buildable: True
+  main-is: thirteen-one.hs
+  build-depends: base, split
+  hs-source-dirs: src
+
+Executable thirteen-two
+  buildable: True
+  main-is: thirteen-two.hs
+  build-depends: base, split
+  hs-source-dirs: src
