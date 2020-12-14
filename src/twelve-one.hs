@@ -5,7 +5,7 @@
 import System.Environment (getArgs)
 import Control.Monad.State (State (..), get, put, evalState, runState)
 
--- State of Amplifiers
+-- State of the Ship
 data ShipState =
   ShipState {
     direction :: Int -- N=0, E=1, S=2, W=3

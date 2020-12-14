@@ -173,3 +173,15 @@ Executable thirteen-two
   main-is: thirteen-two.hs
   build-depends: base, split
   hs-source-dirs: src
+
+Executable fourteen-one
+  buildable: True
+  main-is: fourteen-one.hs
+  build-depends: base, parsec
+  hs-source-dirs: src
+
+Executable fourteen-two
+  buildable: True
+  main-is: fourteen-two.hs
+  build-depends: base, parsec
+  hs-source-dirs: src
