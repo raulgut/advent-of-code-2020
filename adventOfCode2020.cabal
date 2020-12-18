@@ -221,3 +221,15 @@ Executable seventeen-two
   main-is: seventeen-two.hs
   build-depends: base
   hs-source-dirs: src
+
+Executable eighteen-one
+  buildable: True
+  main-is: eighteen-one.hs
+  build-depends: base
+  hs-source-dirs: src, parsec
+
+Executable eighteen-two
+  buildable: True
+  main-is: eighteen-two.hs
+  build-depends: base
+  hs-source-dirs: src, parsec
