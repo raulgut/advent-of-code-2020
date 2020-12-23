@@ -263,3 +263,15 @@ Executable twentytwo-two
   main-is: twentytwo-two.hs
   build-depends: base
   hs-source-dirs: src
+
+Executable twentythree-one
+  buildable: True
+  main-is: twentythree-one.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable twentythree-two
+  buildable: True
+  main-is: twentythree-two.hs
+  build-depends: base
+  hs-source-dirs: src
