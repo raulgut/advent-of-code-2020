@@ -252,6 +252,18 @@ Executable twenty-two
   build-depends: base, multiset
   hs-source-dirs: src
 
+Executable twentyone-one
+  buildable: True
+  main-is: twentyone-one.hs
+  build-depends: base
+  hs-source-dirs: src
+
+Executable twentyone-two
+  buildable: True
+  main-is: twentyone-two.hs
+  build-depends: base
+  hs-source-dirs: src
+
 Executable twentytwo-one
   buildable: True
   main-is: twentytwo-one.hs
