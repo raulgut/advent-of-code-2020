@@ -249,7 +249,7 @@ Executable twenty-one
 Executable twenty-two
   buildable: True
   main-is: twenty-two.hs
-  build-depends: base, multiset
+  build-depends: base, multiset, pretty
   hs-source-dirs: src
 
 Executable twentyone-one
